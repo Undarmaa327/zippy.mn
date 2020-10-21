@@ -1,63 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta
-      content="description"
-      name="Online retailer. Fast and reliable, simple. That's how it should be."
-    />
+    <meta content="description" name="Online retailer. Fast and reliable, simple. That's how it should be." />
     <link rel="apple-touch-icon" href="/source/img/hohoho.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
     <title>Login</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <nav>
-        <section>
-          <h1>ZIPPY.MN</h1>
-          <p>Search</p>
-          <ul>
-            <li><a href="#">ХУВЦАС</a></li>
-            <li><a href="#">ТЕХНОЛОГИ</a></li>
-            <li><a href="#">ГОО САЙХАН</a></li>
-            <li><a href="#">СПОРТ</a></li>
-          </ul>
-        </section>
-        <section>
-          <ul>
-            <li><a href="#">SAVED</a></li>
-            <li><a href="/cart.html">CART</a></li>
-            <li><a href="/login.html">LOGIN</a></li>
-          </ul>
-        </section>
-      </nav>
+        <nav>
+            <section>
+                <h1>ZIPPY.MN</h1>
+                <p>Search</p>
+                <ul>
+                    <li><a href="#">ХУВЦАС</a></li>
+                    <li><a href="#">ТЕХНОЛОГИ</a></li>
+                    <li><a href="#">ГОО САЙХАН</a></li>
+                    <li><a href="#">СПОРТ</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul>
+                    <li><a href="#">SAVED</a></li>
+                    <li><a href="/cart.html">CART</a></li>
+                    <li><a href="/login.html">LOGIN</a></li>
+                </ul>
+            </section>
+        </nav>
     </header>
+    <section>
+        <div id="login">
+            <h1>
+
+                <a>Нэвтрэх</a>
+            </h1>
+            <form name="loginform" id="loginform" action="https://zippy.mn/wp-login.php" method="POST">
+                <p>
+                    <label for="user_login">И-Мейл</label>
+                    <input type="text" name="log" id="user_login" class="input" value size="20" autocapitalize="off">
+                </p>
+                <div class="user-pass-wrap">
+                    <label for="user_pass">Нууц үг</label>
+
+                    <div class="wp-pwd">
+                        <input type="password" name="pwd" id="user_pass" class="input password-input" value size="20">
+                        <button type="button" class="button button-secondary wp-hide-pw-hide-if-ni-js" data-toggle="0" aria-label="Show password">
+                    <span class="dashisons dashicons-visibility " aria-hidden="true">
+                      ::before
+                    </span>
+                  </button>
+                    </div>
+                </div>
+                <!--OneAll.com / Social Login for WordPress / v5.6 -->
+            </form>
+        </div>
+
+    </section>
     <footer>
-      <h4>ZIPPY.MN</h4>
-      <ul>
-        <li><a href="#">Бидний тухай</a></li>
-        <li><a href="#"></a>Веб үйлчилгээ</li>
-        <li><a href="#"></a>Бүтээгдэхүүн үйлчилгээ</li>
-        <li><a href="#"></a>Хамтран ажиллах</li>
-        <li><a href="#"></a>Ажлын байр</li>
-      </ul>
-      <h4>ХАМТРАГЧ БРЕНДҮҮД</h4>
-      <ul>
-        <li><a href="#">Levi's</a></li>
-        <li><a href="#"></a>Nike</li>
-        <li><a href="#"></a>Adidas</li>
-        <li><a href="#"></a>Samsung</li>
-        <li><a href="#"></a>Apple</li>
-      </ul>
-      <h4>ХАЯГ</h4>
-      <p>
-        801 Гранд Плаза, Хатанбаатар магсаржавын гудам, 1-р хороо Баянгол
-        дүүрэг, Улаанбатаар хот, Монгол Улс
-      </p>
-      <h4>ХОЛБОО БАРИХ</h4>
-      <p>Утас: +976 99999999</p>
-      <p>И-Мейл: info@zippy.mn</p>
+        <h4>ZIPPY.MN</h4>
+        <ul>
+            <li><a href="#">Бидний тухай</a></li>
+            <li>
+                <a href="#"></a>Веб үйлчилгээ</li>
+            <li>
+                <a href="#"></a>Бүтээгдэхүүн үйлчилгээ</li>
+            <li>
+                <a href="#"></a>Хамтран ажиллах</li>
+            <li>
+                <a href="#"></a>Ажлын байр</li>
+        </ul>
+        <h4>ХАМТРАГЧ БРЕНДҮҮД</h4>
+        <ul>
+            <li><a href="#">Levi's</a></li>
+            <li>
+                <a href="#"></a>Nike</li>
+            <li>
+                <a href="#"></a>Adidas</li>
+            <li>
+                <a href="#"></a>Samsung</li>
+            <li>
+                <a href="#"></a>Apple</li>
+        </ul>
+        <h4>ХАЯГ</h4>
+        <p>
+            801 Гранд Плаза, Хатанбаатар магсаржавын гудам, 1-р хороо Баянгол дүүрэг, Улаанбатаар хот, Монгол Улс
+        </p>
+        <h4>ХОЛБОО БАРИХ</h4>
+        <p>Утас: +976 99999999</p>
+        <p>И-Мейл: info@zippy.mn</p>
     </footer>
-  </body>
+</body>
+
 </html>
